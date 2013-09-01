@@ -361,7 +361,7 @@ blockquote h3
 	top:0;
 	left: 0;
 	margin: 0;
-	background: transparent url('../images/Chalkboard-background.jpg') repeat;
+	background: url('../images/Chalkboard-background.jpg') repeat;
 	z-index: 999;
 	border-left: 10px solid #dedfda;
 	border-right: 1px solid #DADFBE;
