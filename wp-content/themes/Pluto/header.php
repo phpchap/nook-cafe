@@ -267,7 +267,16 @@ input[type=submit], input[type=button], a.button {
 </head>
 
 <body <?php body_class(); ?>>
-
+    
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
 	<input type="hidden" id="home_url" name="home_url" value="<?php echo get_home_url(); ?>"/>
 
 	<!-- Begin template wrapper -->
@@ -299,8 +308,9 @@ input[type=submit], input[type=button], a.button {
 
 			?>
 						
-			<a id="custom_logo" class="logo_wrapper" href="<?php echo home_url(); ?>"><img src="<?php echo $pp_logo?>" alt=""/></a>
-						
+<?php /* 			<a id="custom_logo" class="logo_wrapper" href="<?php echo home_url(); ?>"><img src="<?php echo $pp_logo?>" alt=""/></a> */ ?>
+                        <a id="custom_logo" class="logo_wrapper" href="<?php echo home_url(); ?>">The Nook Cafe</a>
+                        <a id="custom_logo" class="logo_wrapper small" href="<?php echo home_url(); ?>">Coffee &middot; Cafe &middot; Deli</a>
 			<!-- End logo -->
 		
 		    <!-- Begin main nav -->
@@ -314,7 +324,9 @@ input[type=submit], input[type=button], a.button {
 		    					) 
 		    			); 
 		    ?>
-		    
+
+                    <div class="fb-like-box" data-href="https://www.facebook.com/pages/The-Nook-Cafe/591424050899740#" data-width="200" data-show-faces="true" data-header="false" data-stream="false" data-show-border="true"></div>
+                    
 		    <!-- End main nav -->
 		    
 		    <?php
