@@ -336,7 +336,7 @@ input[type=submit], input[type=button], a.button {
 			    {
 			?>
                     
-                    <div class="fb-like-box" data-href="https://www.facebook.com/pages/The-Nook-Cafe/591424050899740#" data-width="200" data-show-faces="true" data-header="false" data-stream="false" data-show-border="true"></div>
+                    
                     
 					<br class="clear"/>
 			    	<div id="menu_search">
@@ -349,7 +349,7 @@ input[type=submit], input[type=button], a.button {
 			<?php
 			    }
 			?>
-		    
+<div class="fb-like-box" data-href="https://www.facebook.com/pages/The-Nook-Cafe/591424050899740#" data-width="200" data-show-faces="true" data-header="false" data-stream="false" data-show-border="true"></div>		    
 		    <br class="clear"/><br/><br/>
 		    <div id="menu_footer">
 				<?php
