@@ -432,7 +432,7 @@ blockquote h3
 	color: #d5d1ca;
 	font-family: 'WorstveldSlingBold';
         text-shadow: 1px 0px 1px #000;
-        font-size: 40px;  
+        font-size: 26px;  
         height: 45px;
 }
 .nav li a
@@ -441,6 +441,7 @@ blockquote h3
 	font-family: 'WorstveldSlingBold';
         text-shadow: 1px 0px 1px #000;
         font-size: 30px;
+        line-height: 20px;
 }
 
 .nav li a:hover, .nav li a:active
